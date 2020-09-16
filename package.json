@@ -1,0 +1,25 @@
+{
+  "name": "hyper-bot",
+  "version": "0.0.1",
+  "description": "A boilerplate example bot with command handler and reloadable commands. Updated and Maintained by the Idiot's Guide Community",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "postinstall": "node setup.js"
+  },
+  "engines": {
+    "node": ">=12"
+  },
+  "author": "Josh Christensen <eth1kz.j3@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@ethikz/eslint-config": "^1.0.1",
+    "better-sqlite3": "^6.0.1",
+    "chalk": "^4.0.0",
+    "discord.js": "^12.3.1",
+    "enmap": "^5.2.4",
+    "inquirer": "^7.1.0",
+    "moment": "^2.24.0",
+    "moment-duration-format": "^2.3.2"
+  }
+}
