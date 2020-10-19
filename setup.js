@@ -40,7 +40,7 @@ let prompts = [{
 }];
 
 (async function () {
-  console.log("Setting Up GuideBot Configuration...");
+  console.log("Setting Up Hyperbot Configuration...");
 
   await settings.defer;
 
